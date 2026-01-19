@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampel Produk Interior & Eksterior - Visualisasi 5D Floor</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Jelajahi sampel layar produk interior dan eksterior dengan visualisasi 5D Floor. Pesan sekarang untuk desain rumah impian Anda.">
+    <meta name="keywords" content="sampel produk interior, eksterior, visualisasi 5D Floor, layar produk, desain rumah">
+    <meta name="author" content="Your Name">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">5D Floor Samples</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#simulation">Simulasi</a></li>
+                <li><a href="#transactions">Transaksi</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="landing-page">
+        <div class="hero">
+            <h1>Sampel Layar Produk Interior & Eksterior</h1>
+            <p>Optimasi desain dengan visualisasi 5D Floor untuk rumah impian Anda. Lihat sampel interaktif dan pesan sekarang!</p>
+            <button onclick="scrollToSection('products')">Jelajahi Produk</button>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Galeri Produk</h2>
+        <div class="product-grid" id="productGrid">
+            <!-- Produk akan di-generate oleh JS -->
+        </div>
+    </section>
+
+    <section id="simulation">
+        <h2>Simulasi 5D Floor</h2>
+        <p>Klik pada sampel untuk melihat simulasi visualisasi 5D.</p>
+        <div class="simulation-container">
+            <img id="simImage" src="images/sample1.jpg" alt="Simulasi Produk" onclick="toggleZoom()">
+            <p id="simDesc">Klik gambar untuk zoom dan simulasi.</p>
+        </div>
+    </section>
+
+    <section id="transactions">
+        <h2>Menu Transaksi</h2>
+        <div class="transaction-options">
+            <div class="option">
+                <h3>Lihat Harga</h3>
+                <p>Cek harga sampel produk.</p>
+                <button onclick="showPrices()">Lihat Harga</button>
+            </div>
+            <div class="option">
+                <h3>Pesan Sekarang</h3>
+                <form id="orderForm">
+                    <label for="product">Pilih Produk:</label>
+                    <select id="product">
+                        <option value="interior">Interior (Lantai)</option>
+                        <option value="exterior">Eksterior (Fasad)</option>
+                    </select>
+                    <label for="quantity">Jumlah:</label>
+                    <input type="number" id="quantity" min="1">
+                    <button type="submit">Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@5dfloorsamples.com | Telepon: +62 123 456 789</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 5D Floor Samples. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
